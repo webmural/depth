@@ -4,24 +4,19 @@
 }
 
 :root {
-  color: #200222;
-  background: skyblue;
+  color: #111;
+  background: #bae;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: deepskyblue;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
+    background: rebeccapurple;
+    color: seashell;
   }
 }
 
 :any-link {
-  color: #50a;
+  color: inherit;
   text-decoration-style: dotted;
 }
 
